@@ -24,6 +24,7 @@ export const FadeInImage = ({uri, style}: Props) => {
       style={{
         justifyContent: 'center',
         alignItems: 'center',
+        
       }}>
       {isLoaded && (
         <ActivityIndicator
